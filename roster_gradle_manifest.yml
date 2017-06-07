@@ -8,4 +8,5 @@ applications:
   services:
   - mydb
   - config-server
+  - eureka-server
   stack: cflinuxfs2
