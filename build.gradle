@@ -17,6 +17,7 @@ apply plugin: 'spring-boot'
 jar {
 	baseName = 'roster'
 }
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
