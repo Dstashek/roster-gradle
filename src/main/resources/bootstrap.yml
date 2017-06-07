@@ -18,4 +18,4 @@ security:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://Dstashek:Snoopy123@eureka-dstashek-0_0_1-rc_1.cfapps.io/eureka
+      defaultZone: ${vcap.services.eureka-server.credentials.uri}
