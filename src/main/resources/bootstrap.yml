@@ -20,6 +20,3 @@ eureka:
     serviceUrl:
       defaultZone: ${vcap.services.eureka-server.credentials.uri}
       
-  instance:
-    hostname: ${vcap.application.uris[0]}
-    nonSecurePort: 80
